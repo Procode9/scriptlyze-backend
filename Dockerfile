@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 8000
 
 # Run with gunicorn (Railway compatible)
-CMD gunicorn app.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT
+CMD gunicorn app.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker --bind 8080:$PORT
