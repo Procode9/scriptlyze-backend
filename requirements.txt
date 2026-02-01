@@ -25,8 +25,6 @@ tiktoken==0.5.2
 pydantic==2.5.3
 pydantic-settings==2.1.0
 
-# CORS & Middleware
-python-cors==1.0.0
 
 # Utilities
 python-dateutil==2.8.2
